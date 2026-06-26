@@ -1,0 +1,20 @@
+# 1. (CESPE/2023) Julgue o item que se segue, a respeito de Python, Java e orientação a objetos. O resultado da execução do código em Python a seguir será 'Meu nome é Garfield'.
+"""
+class Animal:
+    nome = ""
+    def patas(self):
+        print("Tenho quatro patas")
+class Gato(Animal):
+    def display(self):
+        print("Meu nome é", self.nome)
+garfield = Gato()
+garfield.nome = "Garfield"
+garfield.patas()
+garfield.display()
+"""
+
+Resposta:
+Falso. Após a execução do Código em Python acima, o programa imprimirá algo antes do 'Meu nome é Garfield'. O resultado impresso seria realmente:
+"Tenho quatro patas"
+"Meu nome é Garfield"
+E não apenas 'Meu nome é Garfield' como diz o enunciado.
